@@ -42,11 +42,17 @@ Install MySQL and create a database named employeemanagementsystem .
 
 Update the database URL, username, and password to match your MySQL configuration.
 ## Java
-```String url = "jdbc:mysql://localhost:3306/employeemanagementsystem";
+```
+String url = "jdbc:mysql://localhost:3306/employeemanagementsystem";
 String username = "your_username";
-String password = "your_password";```
+String password = "your_password";
+```
 
-Build and Run the Application: i) Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse). ii) Build the project to resolve dependencies. iii) Run the Main.java file to start the application.
+Build and Run the Application:
+i) Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
+ii) Build the project to resolve dependencies.
+iii) Run the Main.java file to start the application.
+
 ## Usage
 
 1. **Launch the Application:**
@@ -66,5 +72,6 @@ Use the search functionality to find employees by name, department, or ID.
 
 6. **Display Employees:**
 View all employee records in a table format.
+
 ## Acknowledgements
 Thanks to the developers of Java, MySQL, and all the libraries used in this project.
